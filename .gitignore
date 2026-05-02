@@ -1,0 +1,11 @@
+# Ignore virtual environment completely
+venv_pdc/
+venv/
+env/
+.env
+
+# Ignore large model files (optional but recommended)
+*.pkl
+__pycache__/
+*.csv
+plot_outputs/
